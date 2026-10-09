@@ -7,7 +7,7 @@ run = '2'
 
 # --- Begin code ---
 
-path = './runs/Slop Run ' + run + '.csv'
+path = './runs/Run ' + run + '.csv'
 
 df = pd.read_csv(path, sep=',')
 columns = df.columns.to_list()
